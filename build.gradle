@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+    }
+}
+
+// ─── Versions ────────────────────────────────────────────────────────────────
+ext {
+    appName        = 'LombaPlatformer'
+    gdxVersion     = '1.12.1'
+    ashleyVersion  = '1.7.4'
+    roboVMVersion  = '2.3.21'
+    box2DVersion   = '1.12.1'   // bundled in gdx-box2d
+    javaVersion    = '11'
+}

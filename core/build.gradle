@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+dependencies {
+    // libGDX core
+    api "com.badlogicgames.gdx:gdx:$gdxVersion"
+
+    // Box2D physics
+    api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+
+    // Ashley Entity-Component System
+    api "com.badlogicgames.ashley:ashley:$ashleyVersion"
+
+    // TiledMap (bundled in gdx-core, no extra dep needed)
+}
