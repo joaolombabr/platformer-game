@@ -2,10 +2,6 @@
 
 Um jogo de plataforma 2D desenvolvido em Java com LibGDX.
 
-## 📸 Screenshot
-
-> *Adicione um screenshot do jogo aqui*
-
 ## 🕹️ Como Jogar
 
 | Tecla | Ação |
@@ -25,7 +21,7 @@ Um jogo de plataforma 2D desenvolvido em Java com LibGDX.
 ## 📁 Estrutura do Projeto
 
 ```
-platformer_clean/
+platformer-game/
 ├── core/          # Lógica principal do jogo (ECS, sistemas, entidades)
 ├── desktop/       # Launcher para desktop (Windows/Linux/Mac)
 ├── android/       # Launcher para Android
@@ -44,7 +40,7 @@ platformer_clean/
    git clone https://github.com/joaolombabr/platformer-game.git
    ```
 2. Abra o IntelliJ IDEA
-3. **File → Open** → selecione a pasta `platformer_clean`
+3. **File → Open** → selecione a pasta `platformer-game`
 4. Aguarde o Gradle sincronizar
 5. Rode a configuração `DesktopLauncher`
 

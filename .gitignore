@@ -1,0 +1,9 @@
+# Gradle / build output
+.gradle/
+build/
+local.properties
+
+# Editors / OS
+.idea/
+*.iml
+.DS_Store
